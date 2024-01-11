@@ -3,8 +3,7 @@
     padding:0;
 }
 
-.container{
-
+.container{ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +14,13 @@
 }
 
 .first{
+    background-image: url("img1.jpeg");
+    background-size: cover;
     display: flex;
     border: 2px solid black;
     box-shadow: 40px;
-    width:50%;
-    height:50%;
+    width:60%;
+    height:70%;
    align-items: center;
    flex-direction: column;
    justify-content: space-around;
@@ -35,7 +36,6 @@
 ul{
     display: flex;
     flex-direction: row;
-   
 }
 li{
      display: flex;
@@ -61,7 +61,7 @@ li{
    flex-direction: column;
    justify-content: space-around;
    /* box-shadow: 3px solid red; */
-/*    box-shadow: 10px 5px 5px red; */
+   /* box-shadow: 10px 5px 5px red; */
    box-shadow: 5px 10px 8px 10px #888888;
     }
     ul{
